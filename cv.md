@@ -32,9 +32,9 @@ console.log(sumDeepArr([[1, 2, 3], [4, 5], [6]]));
 ```
 
 ## Education:
-- HTML and CSS basics on [code-basics] (https://code-basics.com/ru/languages/html)
-- JavaScript basics on [hexlet] (https://ru.hexlet.io/courses/js-basics)
-- Lobachevsky University Course «JavaScript» (in process)
+- HTML and CSS basics on [code-basics](https://code-basics.com/ru/languages/html)
+- JavaScript basics on [hexlet](https://ru.hexlet.io/courses/js-basics)
+- Lobachevsky University Course «JavaScript» (in progress)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Languages:
