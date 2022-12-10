@@ -5,6 +5,7 @@
 - **E-mail** naduha.9612@gmail.com
 - **Telegram** @Wombatyaa
 
+
 ## About myself
 I've dreamed of being a Frontend Developer for a long time and now I'm on my way to make the dream true. My goal is to gain enough knowledge to build a career in this field. 
 
@@ -13,3 +14,19 @@ I've dreamed of being a Frontend Developer for a long time and now I'm on my way
 - Goal-oriented
 - Hardworking
 - Orginized
+
+## Skills: 
+- Git, GitHub
+- HTML
+- CSS
+- JavaScript 
+
+## Code example:
+
+```
+function sumDeepArr(arr) {
+let result = arr.flat(Infinity).reduce((acc, cur) => acc + cur);
+return result;
+}
+console.log(sumDeepArr([[1, 2, 3], [4, 5], [6]]));
+```
