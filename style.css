@@ -76,3 +76,11 @@ color: black;
     line-height: 1.5;
 }
 
+.main {
+    background-color:#CCDFDF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
