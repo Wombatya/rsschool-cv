@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV. Komarova</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-photo">
+          <img src="photo_2021-07-04_18-33-551.jpg" alt="Фотография" />
+        </div>
+        <div class="header-content">
+          <div class="header-info">
+            <h1>Nadezhda Komarova</h1>
+          </div>
+          <nav class="header-menu">
+            <ul class="header-menu-list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      <aside class="aside">
+        <section class="contacts" id="contacts">
+          <h3>Contacts</h3>
+          <ul>
+            <li><span class="bold">Phone</span> +7(952)734-59-05</li>
+            <li><span class="bold">E-mail</span> naduha.96@mail.ru</li>
+            <li><span class="bold">Telegram</span> @Wmbt</li>
+          </ul>
+        </section>
+        <section class="education">
+          <h3>Education</h3>
+          <ul>
+            <li>HTML and CSS basics on code-basics</li>
+            <li>JavaScript basics on hexlet</li>
+            <li>Lobachevsky University Course «JavaScript» (in progress)</li>
+            <li>
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            </li>
+          </ul>
+        </section>
+        <section class="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>Russian - native</li>
+            <li>English - B2</li>
+          </ul>
+        </section>
+      </aside>
+      <main class="main">
+        <div class="about" id="about">
+          <h2>About myself</h2>
+          <p>
+            I’ve dreamed of being a Frontend Developer for a long time and now
+            I’m on my way to make the dream true. My goal is to gain enough
+            knowledge to build a career in this field.
+          </p>
+          <h2>My strengths</h2>
+          <ul>
+            <li>Quick lerner</li>
+            <li>Goal-oriented</li>
+            <li>Hardworking</li>
+            <li>Orginized</li>
+          </ul>
+        </div>
+        <div class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Git, GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="code" id="code">
+          <h2>Code example</h2>
+          <code>
+            function sumDeepArr(arr) { <br />
+            let result = arr.flat(Infinity).reduce((acc, cur) => acc + cur);
+            <br />
+            return result; <br />
+            } <br />
+            console.log(sumDeepArr([[1, 2, 3], [4, 5], [6]]));
+          </code>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-item">
+          <a href="https://github.com/Wombatya" target="_blank">
+            <img src="" alt="GitHub-logo" />
+          </a>
+        </div>
+        <div class="footer-item">
+          <p>Created in 2022</p>
+        </div>
+        <div class="footer-item">
+          <a href="https://rs.school/js-stage0/">
+            <img src="" alt="rsSchool-logo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
