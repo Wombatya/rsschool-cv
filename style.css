@@ -1,0 +1,86 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    background-color: #FFC7C7;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+} 
+
+.header-photo {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.header-info {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    background-color: #51D3D3;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.header-menu-list li {
+    display: inline;
+}
+
+.header-menu-list a {
+text-decoration: none;
+color: black;
+}
+
+.main-content {
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+}
+
+.aside {
+    background-color: #51D3D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.aside h3 {
+    text-align: center;
+    background-color: #FFC7C7;
+}
+
+.aside section {
+    line-height: 1.5;
+}
+
+.main {
+    background-color:#CCDFDF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
