@@ -21,14 +21,16 @@
         </div>
         <div class="header-content">
           <div class="header-info">
-            <h1>Nadezhda Komarova</h1>
+            <div class="header-wrapper">
+              <h1>Nadezhda Komarova</h1>
+            </div>
           </div>
           <nav class="header-menu">
             <ul class="header-menu-list">
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#code">Code</a></li>
-              <li><a href="#contacts">Contacts</a></li>
+              <li><a class="link" href="#about">About</a></li>
+              <li><a class="link" href="#skills">Skills</a></li>
+              <li><a class="link" href="#code">Code</a></li>
+              <li><a class="link" href="#contacts">Contacts</a></li>
             </ul>
           </nav>
         </div>
@@ -39,9 +41,18 @@
         <section class="contacts" id="contacts">
           <h3>Contacts</h3>
           <ul>
-            <li><span class="bold">Phone</span> +7(952)734-59-05</li>
-            <li><span class="bold">E-mail</span> naduha.96@mail.ru</li>
-            <li><span class="bold">Telegram</span> @Wmbt</li>
+            <li>
+              <img src="phone_sign.png" alt="phone_sign" />
+              <span class="bold">Phone</span> +7(952)734-59-05
+            </li>
+            <li>
+              <img src="mail_sign.png" alt="mail_sign" />
+              <span class="bold">E-mail</span> naduha.96@mail.ru
+            </li>
+            <li>
+              <img src="tg_sign.png" alt="tg_sign" />
+              <span class="bold">Telegram</span> @Wmbt
+            </li>
           </ul>
         </section>
         <section class="education">
@@ -66,12 +77,14 @@
       <main class="main">
         <div class="about" id="about">
           <h2>About myself</h2>
+          <div class="divider"></div>
           <p>
             I’ve dreamed of being a Frontend Developer for a long time and now
             I’m on my way to make the dream true. My goal is to gain enough
             knowledge to build a career in this field.
           </p>
           <h2>My strengths</h2>
+          <div class="divider"></div>
           <ul>
             <li>Quick lerner</li>
             <li>Goal-oriented</li>
@@ -81,6 +94,7 @@
         </div>
         <div class="skills" id="skills">
           <h2>Skills</h2>
+          <div class="divider"></div>
           <ul>
             <li>Git, GitHub</li>
             <li>HTML</li>
@@ -90,6 +104,8 @@
         </div>
         <div class="code" id="code">
           <h2>Code example</h2>
+          <div class="divider"></div>
+          <div class="code-example">
           <code>
             function sumDeepArr(arr) { <br />
             let result = arr.flat(Infinity).reduce((acc, cur) => acc + cur);
@@ -99,13 +115,15 @@
             console.log(sumDeepArr([[1, 2, 3], [4, 5], [6]]));
           </code>
         </div>
+        </div>
       </main>
     </div>
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-item">
           <a href="https://github.com/Wombatya" target="_blank">
-            <img src="" alt="GitHub-logo" />
+            <img class="GitHub-logo" src="GitHub_logo.png" alt="GitHub-logo" />
+            <span> Visit my GitHub</span>
           </a>
         </div>
         <div class="footer-item">
@@ -113,7 +131,7 @@
         </div>
         <div class="footer-item">
           <a href="https://rs.school/js-stage0/">
-            <img src="" alt="rsSchool-logo" />
+            <img class="rsschool-logo" src="rs_school_logo.png" alt="rsSchool-logo" />
           </a>
         </div>
       </div>
