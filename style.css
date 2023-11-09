@@ -1,0 +1,167 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    background-color: #FFC7C7;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+} 
+
+.header-photo {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.header-info {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.header-wrapper {
+    width: 100%;
+    margin-bottom: 10%;
+    max-height: 100px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #51D3D3;
+    height: 50px;
+}
+
+.header-menu-list li {
+    display: inline;
+}
+
+.header-menu-list a {
+text-decoration: none;
+color: black;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+}
+
+.aside {
+    background-color: #51D3D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.aside h3 {
+    text-align: center;
+    background-color: #FFC7C7;
+}
+
+.aside section {
+    line-height: 1.5;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts li img {
+width: 30px;
+height: 30px;
+vertical-align: middle;
+margin: 10px;
+}
+
+.main {
+    background-color:#CCDFDF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.main h2 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.about p {
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.main li {
+    line-height: 1.5;
+}
+
+.divider {
+    background: black;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.code-example {
+background: wheat;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.footer-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+    overflow: hidden;
+    background-color: #FFC7C7
+}
+
+.GitHub-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.rsschool-logo {
+    width: 150px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 10px;
+    background: transparent;
+}
+
